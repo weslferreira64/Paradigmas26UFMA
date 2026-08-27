@@ -1,0 +1,30 @@
+inicio 
+escreva digite seu nome
+recebe nome
+
+escreva digite sua idade
+recebe idade
+
+escreva digite seu saldo
+recebe saldo
+
+escreva preço do produto
+recebe preço
+
+escreva digite quantidade
+recebe quantidade
+
+precoCompra -> preco * quantidade
+
+se idade > 18
+	se precoCompra <= saldo
+		digite "cliente nomeCliente compra aprovada: você possui saldo e idade
+	senao
+		digite "cliente nomeCliente compra negada: você possui idade mas n saldo
+senao
+	se precoCompra <= saldo
+		digite "cliente nomeCliente compra negada: você possui saldo mas n posssui idade
+
+	senao
+		digite "cliente nomeCliente compra negada: você nao possui idade e n possui saldo
+fim
