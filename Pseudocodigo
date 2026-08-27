@@ -1,30 +1,32 @@
 inicio 
-escreva digite seu nome
-recebe nome
+imprimir "digite seu nome"
+ler nome
 
-escreva digite sua idade
-recebe idade
+imprimir "digite sua idade"
+ler idade
 
-escreva digite seu saldo
-recebe saldo
+imprimir "digite seu saldo"
+ler saldo
 
-escreva preço do produto
-recebe preço
+imprimir "preço do produto"
+ler preço
 
-escreva digite quantidade
-recebe quantidade
+imprimir "digite quantidade"
+ler quantidade
+
 
 precoCompra -> preco * quantidade
 
 se idade > 18
 	se precoCompra <= saldo
-		digite "cliente nomeCliente compra aprovada: você possui saldo e idade
+		
+		imprimir "cliente nomeCliente compra aprovada: você possui saldo e idade"
 	senao
-		digite "cliente nomeCliente compra negada: você possui idade mas n saldo
+		imprimir "cliente nomeCliente compra negada: você possui idade mas n saldo"
 senao
 	se precoCompra <= saldo
-		digite "cliente nomeCliente compra negada: você possui saldo mas n posssui idade
+		imprimir "cliente nomeCliente compra negada: você possui saldo mas n posssui idade"
 
 	senao
-		digite "cliente nomeCliente compra negada: você nao possui idade e n possui saldo
+		imprimir "cliente nomeCliente compra negada: você nao possui idade e n possui saldo"
 fim
