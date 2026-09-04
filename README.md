@@ -2,8 +2,6 @@
 Nome: Wesley Oliveira Ferreira 
 Matrícula: 20240005152
 
-
-
 Pseudocódigo:
 
 inicio do programa 
